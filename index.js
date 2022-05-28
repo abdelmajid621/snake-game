@@ -3,7 +3,7 @@ const scoreEl = document.querySelector(".score");
 const timerEl = document.querySelector(".timer");
 const rows = 15;
 const columns = 15;
-let squares = new Array(20).fill(0).map(() => new Array(20).fill(0));
+let squares = new Array(rows).fill(0).map(() => new Array(columns).fill(0));
 let dir = [0, 1];
 let score = 0;
 let time = 0;
